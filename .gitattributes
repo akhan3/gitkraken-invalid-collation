@@ -1,0 +1,61 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+
+##---------------------------------------------------
+# Common .gitattributes
+##---------------------------------------------------
+
+# Documents
+# ============
+*.txt       text
+*.md        text
+
+# Graphics
+# ============
+*.png       binary
+*.jpg       binary
+*.jpeg      binary
+*.gif       binary
+*.tif       binary
+*.tiff      binary
+*.ico       binary
+*.svg       text
+*.eps       binary
+
+
+##---------------------------------------------------
+# Basic .gitattributes for a MATLAB repo
+##---------------------------------------------------
+
+# Source files
+# ============
+*.m         text
+*.prf       text
+
+# Binary files
+# ============
+*.p         binary
+*.mex*      binary
+*.fig       binary
+*.mat       binary
+*.mdl       binary
+*.slx       binary
+
+
+# SPICE source files
+# ==================
+*.spc       text
+*.cir       text
+
+# Defining a custom hunk-header
+# =============================
+*.m         diff=matlab
+
+
+# # Ignore all whitespace errors
+# # ============================
+# *           -whitespace
