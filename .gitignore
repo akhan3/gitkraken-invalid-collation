@@ -37,3 +37,5 @@ slprj/
 # Visio autosave temporary files
 *.~vsd*
 
+# Python compiled modules
+*.pyc

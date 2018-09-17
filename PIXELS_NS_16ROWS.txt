@@ -1,0 +1,1 @@
+PIXELS_NS_16ROWS="-c0,0 -c1,1"
