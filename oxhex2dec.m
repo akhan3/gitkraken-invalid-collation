@@ -1,3 +1,4 @@
+% convert hexadecimal to decimal notation
 function d = oxhex2dec(h)
     tic
     for k = 1:numel(h)
