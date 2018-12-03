@@ -6,4 +6,5 @@ function d = oxhex2dec(h)
         end
     end
     d = hex2dec(h);
+    % new line
 end
