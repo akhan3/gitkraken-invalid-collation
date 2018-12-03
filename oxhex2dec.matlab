@@ -8,5 +8,5 @@ function d = oxhex2dec(h)
     d = hex2dec(h);
     % new line
     % new line
-    % this is another comment
+    % new line
 end
